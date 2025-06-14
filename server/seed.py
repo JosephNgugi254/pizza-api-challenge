@@ -4,7 +4,7 @@ from server.models.pizza import Pizza
 from server.models.restaurant_pizza import RestaurantPizza
 
 def seed_data():
-    with app.app_context():  # Add application context
+    with app.app_context():  
         db.drop_all()
         db.create_all()
 
