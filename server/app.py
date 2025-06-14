@@ -9,10 +9,10 @@ app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-# Import models
+# Import the models
 from server.models import restaurant, pizza, restaurant_pizza
 
-# Import and register blueprints after app and db are initialized
+# Register blueprints
 from server.controllers import register_blueprints
 register_blueprints(app)
 
