@@ -1,0 +1,28 @@
+# Python and Flask
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+instance/
+*.db
+
+# Flask migrations
+migrations/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+.pipenv
+venv/
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+.DS_Store
